@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Age Calculator</title>
+    <marquee behavior="scroll"  loop="-5" width="100%">
+            <i><font color="white"><strong><h1>Welcome to the BITS Pilani WILP Project for AGE CALCULATOR</h1></strong></font></i>
+    </marquee> 
+    <p id="age2" class="date1"></p>
+    
+</head>
+<body background="bg1.jpg">
+        <h1><font color="white">Kindly Select your Date of Birth</h1></font>
+<form id='myform' action="">
+    <input type="date" class="dclas" id="birth_date" value=""></br>
+    <input type="button" class="agebutton" value="Calculate age" onclick="ageCalculate()"></br>
+    <input type=button class="cbutton" value="Clear" onclick='myClear()'>
+        <h1>Age: </h1>
+        <div id="age" class="age1">
+        </div>	
+    <script src="logic.js"></script>
+</form>
+</body>
+</html>

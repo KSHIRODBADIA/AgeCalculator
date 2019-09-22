@@ -1,0 +1,74 @@
+
+*{
+margin: 0px;
+padding: 8px;
+background: "bg1.jpg";
+background-size: 150%;
+background-repeat: no-repeat;
+}
+body
+{
+text-align: center;
+}
+.cbutton
+{
+background-color: rgb(255,255,255);
+border-color: rgb(4, 81, 104);
+color: rgb(252, 108, 13);
+margin: 10px;
+padding: 15px 30px;
+font-size: 30px;
+border-radius: 12px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+.cbutton:hover 
+      {
+        background-color: #4CAF50;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+
+.agebutton
+{
+    background-color: rgb(255,255,255);
+    border-color: rgb(12, 11, 10);
+    color: rgb(252, 108, 13);
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 30px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+      cursor: pointer;
+   }
+   .agebutton:hover 
+      {
+        background-color: #4CAF50;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+      .dclas{
+        background-color: rgb(255,255,255);
+        border-color: rgb(12, 11, 10);
+        color: rgb(252, 108, 13);
+        margin: 10px;
+        padding: 15px 30px;
+        font-size: 30px;
+        border-radius: 12px;
+        transition-duration: 0.4s;
+        cursor: pointer; 
+      }
+      .dclas:hover 
+      {
+        background-color: #4CAF50;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+      }
+      .age1{
+        font-size: 30px;
+        color: rgb(8, 11, 12);
+      }
+      .date1{
+        color:yellow;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+      }
+
+
